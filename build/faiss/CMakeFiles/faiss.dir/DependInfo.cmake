@@ -1,0 +1,95 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/swh/桌面/MyProgram/Faiss/faiss/AutoTune.cpp" "faiss/CMakeFiles/faiss.dir/AutoTune.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/AutoTune.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/Clustering.cpp" "faiss/CMakeFiles/faiss.dir/Clustering.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/Clustering.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IVFlib.cpp" "faiss/CMakeFiles/faiss.dir/IVFlib.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IVFlib.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/Index.cpp" "faiss/CMakeFiles/faiss.dir/Index.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/Index.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/Index2Layer.cpp" "faiss/CMakeFiles/faiss.dir/Index2Layer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/Index2Layer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexAdditiveQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/IndexAdditiveQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexAdditiveQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexAdditiveQuantizerFastScan.cpp" "faiss/CMakeFiles/faiss.dir/IndexAdditiveQuantizerFastScan.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexAdditiveQuantizerFastScan.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexBinary.cpp" "faiss/CMakeFiles/faiss.dir/IndexBinary.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexBinary.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexBinaryFlat.cpp" "faiss/CMakeFiles/faiss.dir/IndexBinaryFlat.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexBinaryFlat.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexBinaryFromFloat.cpp" "faiss/CMakeFiles/faiss.dir/IndexBinaryFromFloat.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexBinaryFromFloat.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexBinaryHNSW.cpp" "faiss/CMakeFiles/faiss.dir/IndexBinaryHNSW.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexBinaryHNSW.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexBinaryHash.cpp" "faiss/CMakeFiles/faiss.dir/IndexBinaryHash.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexBinaryHash.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexBinaryIVF.cpp" "faiss/CMakeFiles/faiss.dir/IndexBinaryIVF.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexBinaryIVF.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexFastScan.cpp" "faiss/CMakeFiles/faiss.dir/IndexFastScan.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexFastScan.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexFlat.cpp" "faiss/CMakeFiles/faiss.dir/IndexFlat.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexFlat.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexFlatCodes.cpp" "faiss/CMakeFiles/faiss.dir/IndexFlatCodes.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexFlatCodes.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexHNSW.cpp" "faiss/CMakeFiles/faiss.dir/IndexHNSW.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexHNSW.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVF.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVF.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVF.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFAdditiveQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFAdditiveQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFAdditiveQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFAdditiveQuantizerFastScan.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFAdditiveQuantizerFastScan.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFAdditiveQuantizerFastScan.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFFastScan.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFFastScan.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFFastScan.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFFlat.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFFlat.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFFlat.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFPQ.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFPQ.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFPQ.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFPQFastScan.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFPQFastScan.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFPQFastScan.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFPQR.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFPQR.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFPQR.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexIVFSpectralHash.cpp" "faiss/CMakeFiles/faiss.dir/IndexIVFSpectralHash.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexIVFSpectralHash.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexLSH.cpp" "faiss/CMakeFiles/faiss.dir/IndexLSH.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexLSH.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexLattice.cpp" "faiss/CMakeFiles/faiss.dir/IndexLattice.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexLattice.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexNNDescent.cpp" "faiss/CMakeFiles/faiss.dir/IndexNNDescent.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexNNDescent.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexNSG.cpp" "faiss/CMakeFiles/faiss.dir/IndexNSG.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexNSG.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexPQ.cpp" "faiss/CMakeFiles/faiss.dir/IndexPQ.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexPQ.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexPQFastScan.cpp" "faiss/CMakeFiles/faiss.dir/IndexPQFastScan.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexPQFastScan.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexPreTransform.cpp" "faiss/CMakeFiles/faiss.dir/IndexPreTransform.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexPreTransform.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexRefine.cpp" "faiss/CMakeFiles/faiss.dir/IndexRefine.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexRefine.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexReplicas.cpp" "faiss/CMakeFiles/faiss.dir/IndexReplicas.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexReplicas.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexScalarQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/IndexScalarQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexScalarQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/IndexShards.cpp" "faiss/CMakeFiles/faiss.dir/IndexShards.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/IndexShards.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/MatrixStats.cpp" "faiss/CMakeFiles/faiss.dir/MatrixStats.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/MatrixStats.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/MetaIndexes.cpp" "faiss/CMakeFiles/faiss.dir/MetaIndexes.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/MetaIndexes.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/VectorTransform.cpp" "faiss/CMakeFiles/faiss.dir/VectorTransform.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/VectorTransform.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/clone_index.cpp" "faiss/CMakeFiles/faiss.dir/clone_index.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/clone_index.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/AdditiveQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/impl/AdditiveQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/AdditiveQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/AuxIndexStructures.cpp" "faiss/CMakeFiles/faiss.dir/impl/AuxIndexStructures.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/AuxIndexStructures.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/FaissException.cpp" "faiss/CMakeFiles/faiss.dir/impl/FaissException.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/FaissException.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/HNSW.cpp" "faiss/CMakeFiles/faiss.dir/impl/HNSW.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/HNSW.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/LocalSearchQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/impl/LocalSearchQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/LocalSearchQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/NNDescent.cpp" "faiss/CMakeFiles/faiss.dir/impl/NNDescent.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/NNDescent.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/NSG.cpp" "faiss/CMakeFiles/faiss.dir/impl/NSG.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/NSG.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/PolysemousTraining.cpp" "faiss/CMakeFiles/faiss.dir/impl/PolysemousTraining.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/PolysemousTraining.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/ProductAdditiveQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/impl/ProductAdditiveQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/ProductAdditiveQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/ProductQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/impl/ProductQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/ProductQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/ResidualQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/impl/ResidualQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/ResidualQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/ScalarQuantizer.cpp" "faiss/CMakeFiles/faiss.dir/impl/ScalarQuantizer.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/ScalarQuantizer.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/index_read.cpp" "faiss/CMakeFiles/faiss.dir/impl/index_read.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/index_read.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/index_write.cpp" "faiss/CMakeFiles/faiss.dir/impl/index_write.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/index_write.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/io.cpp" "faiss/CMakeFiles/faiss.dir/impl/io.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/io.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/kmeans1d.cpp" "faiss/CMakeFiles/faiss.dir/impl/kmeans1d.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/kmeans1d.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/lattice_Zn.cpp" "faiss/CMakeFiles/faiss.dir/impl/lattice_Zn.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/lattice_Zn.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/pq4_fast_scan.cpp" "faiss/CMakeFiles/faiss.dir/impl/pq4_fast_scan.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/pq4_fast_scan.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/pq4_fast_scan_search_1.cpp" "faiss/CMakeFiles/faiss.dir/impl/pq4_fast_scan_search_1.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/pq4_fast_scan_search_1.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/impl/pq4_fast_scan_search_qbs.cpp" "faiss/CMakeFiles/faiss.dir/impl/pq4_fast_scan_search_qbs.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/impl/pq4_fast_scan_search_qbs.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/index_factory.cpp" "faiss/CMakeFiles/faiss.dir/index_factory.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/index_factory.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/invlists/BlockInvertedLists.cpp" "faiss/CMakeFiles/faiss.dir/invlists/BlockInvertedLists.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/invlists/BlockInvertedLists.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/invlists/DirectMap.cpp" "faiss/CMakeFiles/faiss.dir/invlists/DirectMap.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/invlists/DirectMap.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/invlists/InvertedLists.cpp" "faiss/CMakeFiles/faiss.dir/invlists/InvertedLists.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/invlists/InvertedLists.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/invlists/InvertedListsIOHook.cpp" "faiss/CMakeFiles/faiss.dir/invlists/InvertedListsIOHook.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/invlists/InvertedListsIOHook.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/invlists/OnDiskInvertedLists.cpp" "faiss/CMakeFiles/faiss.dir/invlists/OnDiskInvertedLists.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/invlists/OnDiskInvertedLists.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/Heap.cpp" "faiss/CMakeFiles/faiss.dir/utils/Heap.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/Heap.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/WorkerThread.cpp" "faiss/CMakeFiles/faiss.dir/utils/WorkerThread.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/WorkerThread.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/distances.cpp" "faiss/CMakeFiles/faiss.dir/utils/distances.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/distances.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/distances_simd.cpp" "faiss/CMakeFiles/faiss.dir/utils/distances_simd.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/distances_simd.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/extra_distances.cpp" "faiss/CMakeFiles/faiss.dir/utils/extra_distances.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/extra_distances.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/hamming.cpp" "faiss/CMakeFiles/faiss.dir/utils/hamming.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/hamming.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/partitioning.cpp" "faiss/CMakeFiles/faiss.dir/utils/partitioning.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/partitioning.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/quantize_lut.cpp" "faiss/CMakeFiles/faiss.dir/utils/quantize_lut.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/quantize_lut.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/random.cpp" "faiss/CMakeFiles/faiss.dir/utils/random.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/random.cpp.o.d"
+  "/home/swh/桌面/MyProgram/Faiss/faiss/utils/utils.cpp" "faiss/CMakeFiles/faiss.dir/utils/utils.cpp.o" "gcc" "faiss/CMakeFiles/faiss.dir/utils/utils.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/test_speed_all.dir/test_speed_all.cpp.o -o test_speed_all  -Wl,-rpath,/home/swh/桌面/MyProgram/Faiss/build/faiss ../../faiss/libfaiss.so 

@@ -1,0 +1,4 @@
+/home/swh/桌面/MyProgram/Faiss/MyTestProgram/build/CMakeFiles/test_lib_factory.dir
+/home/swh/桌面/MyProgram/Faiss/MyTestProgram/build/CMakeFiles/trans_format.dir
+/home/swh/桌面/MyProgram/Faiss/MyTestProgram/build/CMakeFiles/edit_cache.dir
+/home/swh/桌面/MyProgram/Faiss/MyTestProgram/build/CMakeFiles/rebuild_cache.dir

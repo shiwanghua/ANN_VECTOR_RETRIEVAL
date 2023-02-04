@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/swh/桌面/MyProgram/Faiss/MyTestProgram/build",
+  "command": "/usr/bin/c++  -I/home/swh/桌面/MyProgram/Faiss/MyTestProgram/./include  -std=c++14 -msse4.1 -fPIE -fopenmp -o CMakeFiles/test_lib_factory.dir/test_lib_factory.cpp.o -c /home/swh/桌面/MyProgram/Faiss/MyTestProgram/test_lib_factory.cpp",
+  "file": "/home/swh/桌面/MyProgram/Faiss/MyTestProgram/test_lib_factory.cpp"
+},
+{
+  "directory": "/home/swh/桌面/MyProgram/Faiss/MyTestProgram/build",
+  "command": "/usr/bin/c++  -I/home/swh/桌面/MyProgram/Faiss/MyTestProgram/./include  -std=c++14 -msse4.1 -fPIE -o CMakeFiles/trans_format.dir/trans_format.cpp.o -c /home/swh/桌面/MyProgram/Faiss/MyTestProgram/trans_format.cpp",
+  "file": "/home/swh/桌面/MyProgram/Faiss/MyTestProgram/trans_format.cpp"
+}
+]

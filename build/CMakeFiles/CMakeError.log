@@ -1,0 +1,106 @@
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/bin/nvcc 
+Build flags: 
+Id flags: --keep;--keep-dir;tmp;-ccbin=/usr/bin/c++ -v
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/lib/nvidia-cuda-toolkit/bin
+#$ _THERE_=/usr/lib/nvidia-cuda-toolkit/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ NVVMIR_LIBRARY_DIR=/usr/lib/nvidia-cuda-toolkit/libdevice
+#$ PATH=/usr/lib/nvidia-cuda-toolkit/bin:/home/swh/.local/bin:/home/swh/anaconda3/bin:/home/swh/anaconda3/bin:/home/swh/anaconda3/condabin:/home/swh/.sdkman/candidates/scala/current/bin:/home/swh/.sdkman/candidates/maven/current/bin:/home/swh/.sdkman/candidates/hadoop/current/bin:/home/swh/.sdkman/candidates/gradle/current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/swh/桌面/storm_2.3.0/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/swh/桌面/zookeeper-3.7.0/bin:/home/swh/桌面/flink-1.14.0/bin:/home/swh/桌面/kafka_2.13_3.0.0/bin:/home/swh/桌面/maven-3.8.3/bin:/home/swh/桌面/spark-3.1.2-hadoop3.2/bin:.:/home/swh
+#$ LIBRARIES=  -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu
+#$ rm tmp/a_dlink.reg.c
+#$ "/usr/bin"/c++ -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/include/crt/host_config.h:138:2: error: #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+  138 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+      |  ^~~~~
+# --error 0x1 --
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1028a/fast && /usr/bin/make  -f CMakeFiles/cmTC_1028a.dir/build.make CMakeFiles/cmTC_1028a.dir/build
+make[1]: 进入目录“/home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1028a.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++11 -o CMakeFiles/cmTC_1028a.dir/src.cxx.o -c /home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1028a
+/home/swh/桌面/cmake-3.23.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1028a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1028a.dir/src.cxx.o -o cmTC_1028a 
+/usr/bin/ld: CMakeFiles/cmTC_1028a.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1028a.dir/build.make:99：cmTC_1028a] 错误 1
+make[1]: 离开目录“/home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_1028a/fast] 错误 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5f5a4/fast && /usr/bin/make  -f CMakeFiles/cmTC_5f5a4.dir/build.make CMakeFiles/cmTC_5f5a4.dir/build
+make[1]: 进入目录“/home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5f5a4.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++11 -o CMakeFiles/cmTC_5f5a4.dir/CheckFunctionExists.cxx.o -c /home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_5f5a4
+/home/swh/桌面/cmake-3.23.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f5a4.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_5f5a4.dir/CheckFunctionExists.cxx.o -o cmTC_5f5a4  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5f5a4.dir/build.make:99：cmTC_5f5a4] 错误 1
+make[1]: 离开目录“/home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_5f5a4/fast] 错误 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0e3a2/fast && /usr/bin/make  -f CMakeFiles/cmTC_0e3a2.dir/build.make CMakeFiles/cmTC_0e3a2.dir/build
+make[1]: 进入目录“/home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0e3a2.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sgemm_ -std=gnu++11 -o CMakeFiles/cmTC_0e3a2.dir/CheckFunctionExists.cxx.o -c /home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_0e3a2
+/home/swh/桌面/cmake-3.23.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3a2.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_0e3a2.dir/CheckFunctionExists.cxx.o -o cmTC_0e3a2 
+/usr/bin/ld: CMakeFiles/cmTC_0e3a2.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0e3a2.dir/build.make:99：cmTC_0e3a2] 错误 1
+make[1]: 离开目录“/home/swh/桌面/MyProgram/Faiss/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_0e3a2/fast] 错误 2
+
+
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/5-Multiple-GPUs.dir/5-Multiple-GPUs.cpp.o" -o 5-Multiple-GPUs  -Wl,-rpath,/home/swh/桌面/MyProgram/Faiss/build/faiss ../../faiss/libfaiss.so 

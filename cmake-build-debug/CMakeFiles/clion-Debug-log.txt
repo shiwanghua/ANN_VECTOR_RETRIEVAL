@@ -1,0 +1,79 @@
+/snap/clion/222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/222/bin/ninja/linux/x64/ninja -G Ninja -S /home/swh/桌面/MyProgram/Faiss -B /home/swh/桌面/MyProgram/Faiss/cmake-build-debug
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake:739 (message):
+  Compiling the CUDA compiler identification source file
+  "CMakeCUDACompilerId.cu" failed.
+
+  Compiler: /usr/bin/nvcc
+
+  Build flags:
+
+  Id flags: --keep;--keep-dir;tmp;-ccbin=/usr/bin/c++ -v
+
+  
+
+  The output was:
+
+  1
+
+  #$ _SPACE_=
+
+  #$ _CUDART_=cudart
+
+  #$ _HERE_=/usr/lib/nvidia-cuda-toolkit/bin
+
+  #$ _THERE_=/usr/lib/nvidia-cuda-toolkit/bin
+
+  #$ _TARGET_SIZE_=
+
+  #$ _TARGET_DIR_=
+
+  #$ _TARGET_SIZE_=64
+
+  #$ NVVMIR_LIBRARY_DIR=/usr/lib/nvidia-cuda-toolkit/libdevice
+
+  #$
+  PATH=/usr/lib/nvidia-cuda-toolkit/bin:/home/swh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/swh/桌面/storm_2.3.0/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/swh/桌面/zookeeper-3.7.0/bin:/home/swh/桌面/flink-1.14.0/bin:/home/swh/桌面/kafka_2.13_3.0.0/bin:/home/swh/桌面/maven-3.8.3/bin:/home/swh/桌面/spark-3.1.2-hadoop3.2/bin::/home/swh/.local/share/JetBrains/Toolbox/scripts:/snap/clion/222/bin/ninja/linux/x64
+
+
+  #$ LIBRARIES= -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu
+
+  #$ rm tmp/a_dlink.reg.c
+
+  #$ "/usr/bin"/c++ -D__CUDA_ARCH__=300 -E -x c++
+  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__
+  -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1
+  -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64
+  "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii"
+
+  In file included from /usr/include/cuda_runtime.h:83,
+
+                   from <command-line>:
+
+  /usr/include/crt/host_config.h:138:2: error: #error -- unsupported GNU
+  version! gcc versions later than 8 are not supported!
+
+    138 | #error -- unsupported GNU version! gcc versions later than 8 are not supported!
+        |  ^~~~~
+
+  # --error 0x1 --
+
+  
+
+  
+
+Call Stack (most recent call first):
+  /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake:48 (__determine_compiler_id_test)
+  /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:28 (enable_language)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/swh/桌面/MyProgram/Faiss/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/swh/桌面/MyProgram/Faiss/cmake-build-debug/CMakeFiles/CMakeError.log".

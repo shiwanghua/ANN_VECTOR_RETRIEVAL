@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/swh/桌面/MyProgram/Faiss/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
