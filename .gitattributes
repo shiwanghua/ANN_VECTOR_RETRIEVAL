@@ -1,0 +1,2 @@
+dataset/siftDataset/sift1M_txt/sift_learn.txt filter=lfs diff=lfs merge=lfs -text
+dataset/siftDataset/sift1M_txt/sift_base.txt filter=lfs diff=lfs merge=lfs -text
