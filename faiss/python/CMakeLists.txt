@@ -24,16 +24,19 @@ macro(configure_swigfaiss source)
     CPLUSPLUS ON
     USE_TARGET_INCLUDE_DIRECTORIES TRUE
   )
+
   if(NOT ${CMAKE_SYSTEM_NAME} MATCHES "Darwin" AND NOT WIN32)
     set_source_files_properties(${source} PROPERTIES
       SWIG_FLAGS -DSWIGWORDSIZE64
     )
   endif()
+
   if(WIN32)
     set_source_files_properties(${source} PROPERTIES
       SWIG_FLAGS -DSWIGWIN
     )
   endif()
+
   if(FAISS_ENABLE_GPU)
     set_source_files_properties(${source} PROPERTIES
       COMPILE_DEFINITIONS GPU_WRAPPER
@@ -51,10 +54,12 @@ configure_swigfaiss(swigfaiss_avx2.swig)
 if(TARGET faiss)
   # Manually add headers as extra dependencies of swigfaiss.
   set(SWIG_MODULE_swigfaiss_EXTRA_DEPS)
+
   foreach(h ${FAISS_HEADERS})
     list(APPEND SWIG_MODULE_swigfaiss_EXTRA_DEPS "${faiss_SOURCE_DIR}/faiss/${h}")
     list(APPEND SWIG_MODULE_swigfaiss_avx2_EXTRA_DEPS "${faiss_SOURCE_DIR}/faiss/${h}")
   endforeach()
+
   foreach(h ${FAISS_GPU_HEADERS})
     list(APPEND SWIG_MODULE_swigfaiss_EXTRA_DEPS "${faiss_SOURCE_DIR}/faiss/gpu/${h}")
     list(APPEND SWIG_MODULE_swigfaiss_avx2_EXTRA_DEPS "${faiss_SOURCE_DIR}/faiss/gpu/${h}")
@@ -68,7 +73,7 @@ swig_add_library(swigfaiss
   LANGUAGE python
   SOURCES swigfaiss.swig
 )
-set_property(TARGET swigfaiss PROPERTY SWIG_COMPILE_OPTIONS -doxygen)
+set_property(TARGET swigfaiss PROPERTY SWIG_COMPILE_OPTIONS -Doxygen)
 
 set_property(SOURCE swigfaiss_avx2.swig
   PROPERTY SWIG_MODULE_NAME swigfaiss_avx2)
@@ -77,7 +82,8 @@ swig_add_library(swigfaiss_avx2
   LANGUAGE python
   SOURCES swigfaiss_avx2.swig
 )
-set_property(TARGET swigfaiss_avx2 PROPERTY SWIG_COMPILE_OPTIONS -doxygen)
+set_property(TARGET swigfaiss_avx2 PROPERTY SWIG_COMPILE_OPTIONS -Doxygen)
+
 if(NOT FAISS_OPT_LEVEL STREQUAL "avx2")
   set_target_properties(swigfaiss_avx2 PROPERTIES EXCLUDE_FROM_ALL TRUE)
 endif()
