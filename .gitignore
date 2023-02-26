@@ -1,6 +1,10 @@
 build
-
+CMakeFiles
+cmake-build-debug
+CMakeCache.txt
 */build
+*/CMakeFiles
+*/cmake-build-debug
 
 MyTestProgram/compile_commands.json
 
