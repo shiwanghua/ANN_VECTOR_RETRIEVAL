@@ -4,3 +4,5 @@
 在 MyTestProgram 文件夹下尝试用库链接的方式调用 api 来进行测试。
 
 export MKLROOT=/opt/intel/oneapi/mkl/2023.0.0/lib/intel64
+
+export LD_LIBRARY_PATH=/opt/intel/oneapi/mkl/2023.0.0/lib/intel64/
